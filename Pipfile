@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.10"
+
+[packages]
+scipy = "*"
+ipykernel = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+plotly-express = "*"
+imblearn = "*"
+nbformat = "*"
+xgboost = "*"
+shap = "*"
+nbconvert = "*"
+
+[dev-packages]
+jupyter = "*"
+jupyterlab = "*"
+pytest = "*"
